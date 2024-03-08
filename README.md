@@ -1,6 +1,6 @@
 # Vocabulary Deck Generator
 
-This Python script loads a list of words from a JSON file, inspired by the content from the [VocabTest](https://www.vocabtest.com/) platform, specifically focusing on sixth-grade Unit 1 words. It generates a deck of cards in XML format for use on vocabulary study platforms, such as [Anki](https://apps.ankiweb.net/).
+This Python script loads a list of words from a JSON file, inspired by the content from the [VocabTest](https://www.vocabtest.com/) platform, specifically focusing on sixth-grade Unit 1 words. It generates a deck of cards in XML format for use on vocabulary study platforms, such as [Anki](https://www.ankiapp.com/).
 
 ## Usage
 
