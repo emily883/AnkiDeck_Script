@@ -1,27 +1,27 @@
-# Generador de Mazo de Vocabulario
+# Vocabulary Deck Generator
 
-Este script en Python carga una lista de palabras desde un archivo JSON y genera un mazo de tarjetas en formato XML para su uso en plataformas de estudio de vocabulario. Cada tarjeta contiene información como la palabra, definición, oración de vocabulario, sinónimo y antónimo.
+This Python script loads a list of words from a JSON file, inspired by the content from the [VocabTest](https://www.vocabtest.com/) platform, specifically focusing on sixth-grade Unit 1 words. It generates a deck of cards in XML format for use on vocabulary study platforms, such as [Anki](https://apps.ankiweb.net/).
 
-## Uso
+## Usage
 
-1. Asegúrate de tener un archivo JSON con la información de las palabras. Puedes utilizar el formato proporcionado en el ejemplo `words.json`.
+1. Ensure you have a JSON file with word information. You can use the format provided in the example `words.json`.
 
-2. Ejecuta el script `generate_deck.py` para generar el mazo en formato XML.
+2. Run the `generate_deck.py` script to generate the deck in XML format.
 
     ```bash
     python generate_deck.py
     ```
 
-3. El script creará un archivo llamado `vocabulary_deck.xml` con el mazo de tarjetas.
+3. The script will create a file named `vocabulary_deck.xml` containing the deck of cards.
 
-## Estructura del Proyecto
+## Project Structure
 
-- `generate_deck.py`: El script principal que carga las palabras desde un archivo JSON y genera el mazo de tarjetas en XML.
+- `generate_deck.py`: The main script that loads words from a JSON file and generates the card deck in XML.
 
-- `words.json`: Archivo de ejemplo con la información de las palabras.
+- `words.json`: Example file with word information, inspired by the [VocabTest](https://www.vocabtest.com/) platform for sixth-grade Unit 1. The information is translated into Spanish.
 
-- `vocabulary_deck.xml`: Archivo de salida que contiene el mazo de tarjetas en formato XML.
+- `vocabulary_deck.xml`: Output file containing the deck of cards in XML format.
 
-## Requisitos
+## Requirements
 
 - Python 3.x
