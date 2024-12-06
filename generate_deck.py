@@ -6,8 +6,8 @@ with open("words.json", "r", encoding="utf-8") as json_file:
 def create_card(words):
     return f"""
         <card tags="definition">
-            <text name="Front">{words['word']} | {words['palabra']}</text>
-            <text name="Back">{words['definition']} | {words['definicion']}</text>
+            <text name="Front">{words['word']}</text>
+            <text name="Back">{words['definition']}</text>
         </card>
         <card tags="sentence">
             <text name="Front">{words['word']} | {words['palabra']}</text>
@@ -20,6 +20,10 @@ def create_card(words):
         <card tags="antonym">
             <text name="Front">{words['word']} | {words['palabra']}</text>
             <text name="Back">{words['antonym']}| {words["antonimo"]}</text>
+        </card>
+        <card tags="Traduction">
+            <text name="Front">{words['word']}</text>
+            <text name="Back">{words['palabra']}</text>
         </card>
     """
 
